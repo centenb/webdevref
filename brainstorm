@@ -1,1 +1,14 @@
+React setup
+Install node js (backend env)
+Install VS Studio
+Create a new React folder and open in VS Studio
+Open terminal in VS Studio and run the commands
+npm create vite@latest
+give a project name ex. my-react-app
+select React then javascript
+cd my-react-app
+npm install
+npm run dev
+Server is running now and can be accessed via the localhost:port link
+
 
