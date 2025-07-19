@@ -16,7 +16,7 @@ const [var, setVar] = useState(initialVal);
 const updateName = () => {
         setVar("New Val");
     }
-
+use className instead of class(reserved)
 <> code </> wrap code with fragment to return more than one element
 
 
