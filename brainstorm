@@ -34,4 +34,11 @@ display: visible or hidden; (hides element, still takes up space)
 
 element.classList.add('new-class');
 
+Storing and retrieving JSON
+myObj = { "name":"Jane", "age":18, "city":"Chicago" };
+myJSON = JSON.stringify(myObj);                 // storing data
+localStorage.setItem("testJSON", myJSON);   
+text = localStorage.getItem("testJSON");        // retrieving data 
+obj = JSON.parse(text);
+document.write(obj.name);
 
