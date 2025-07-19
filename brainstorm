@@ -11,4 +11,12 @@ npm install
 npm run dev
 Server is running now and can be accessed via the localhost:port link
 
+import React, {useState} from 'react';
+const [var, setVar] = useState(initialVal);
+const updateName = () => {
+        setVar("New Val");
+    }
+
+<> code </> wrap code with fragment to return more than one element
+
 
