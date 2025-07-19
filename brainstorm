@@ -42,3 +42,4 @@ text = localStorage.getItem("testJSON");        // retrieving data
 obj = JSON.parse(text);
 document.write(obj.name);
 
+https://htmlcheatsheet.com/js/
