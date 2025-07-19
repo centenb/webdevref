@@ -19,4 +19,11 @@ const updateName = () => {
 use className instead of class(reserved)
 <> code </> wrap code with fragment to return more than one element
 
+display: flex;
+flex-direction: (def: row) or column;
+justify-content: center (main axis) ex. row will be horizontal axis
+align-items: center (cross axis)
+
+display: grid;
+grid-template-columns/rows: 100px 100px 100px;
 
