@@ -29,3 +29,5 @@ grid-template-columns/rows: 100px 100px 100px;
 
 display: none or block; (removes element)
 display: visible or hidden; (hides element, still takes up space)
+
+element.classList.add('new-class');
